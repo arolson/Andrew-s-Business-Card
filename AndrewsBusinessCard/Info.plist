@@ -9,5 +9,10 @@
 		<string>Slabo27px-Regular.ttf</string>
 		<string>Pacifico-Regular.ttf</string>
 	</array>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIImageName</key>
+		<string></string>
+	</dict>
 </dict>
 </plist>

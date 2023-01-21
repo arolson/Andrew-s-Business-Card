@@ -57,14 +57,14 @@ struct ExternalLinks: View {
     
     var body: some View {
         HStack {
-            let gitHubImage = Image("github")
-            ExternalLink(image: gitHubImage, url: "https://www.github.com/arolson")
-            let linkedInImage = Image("LinkedIn")
-            ExternalLink(image: linkedInImage, url: "https://linkedin.com/in/Andrew-R-Olson")
-            let portfolioImage = Image(systemName: "folder.fill.badge.person.crop")
-            ExternalLink(image:portfolioImage, url: "https://www.andrewo.net")
-            let emailImage = Image(systemName: "envelope.fill")
-            EMailLink(image: emailImage, email: "arolson56@gmail.com")
+            let gitHubImage = Image(Constants.ImageNames.github)
+            ExternalLink(image: gitHubImage, url: Constants.Websites.github)
+            let linkedInImage = Image( Constants.ImageNames.linkedIn)
+            ExternalLink(image: linkedInImage, url: Constants.Websites.linkedIn)
+            let portfolioImage = Image(systemName:  Constants.ImageNames.portfolio)
+            ExternalLink(image:portfolioImage, url: Constants.Websites.portfolio)
+            let emailImage = Image(systemName: Constants.ImageNames.email)
+            EMailLink(image: emailImage, email: Constants.email)
         }
     }
 }
